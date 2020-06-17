@@ -1,0 +1,19 @@
+{
+  "name": "guess-draw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alvar91/guess-draw.git",
+  "author": "Aleksey <aleksey91scorp@bk.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  }
+}
