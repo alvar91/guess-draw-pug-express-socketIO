@@ -1,1 +1,2 @@
+const hello = "hello";
 hello;
