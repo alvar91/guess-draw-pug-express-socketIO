@@ -1,0 +1,15 @@
+@import "body";
+$color: red;
+
+@keyframes tasty {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
+
+body {
+  position: sticky;
+}
