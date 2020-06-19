@@ -3,7 +3,7 @@ import express from "express";
 import socketIO from "socket.io";
 import logger from "morgan";
 
-const PORT = 4000;
+const PORT = 4001;
 const app = express();
 app.set("view engine", "pug");
 app.set("views", join(__dirname, "views"));
