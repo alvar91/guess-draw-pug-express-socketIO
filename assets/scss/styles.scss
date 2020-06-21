@@ -2,6 +2,7 @@
 @import "variables";
 @import "reset";
 @import "login";
+@import "notifications";
 
 * {
   box-sizing: border-box;
@@ -23,15 +24,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
+
   .loginBox,
   .gameContainer {
     display: none;
   }
+
   &.loggedOut {
     .loginBox {
       display: block;
     }
   }
+
   &.loggedIn {
     .gameContainer {
       display: block;
