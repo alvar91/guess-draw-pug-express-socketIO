@@ -5,7 +5,7 @@ import logger from "morgan";
 import socketController from "./socketController";
 import events from "./events";
 
-const PORT = 4001;
+const PORT = 4002;
 const app = express();
 app.set("view engine", "pug");
 app.set("views", join(__dirname, "views"));
