@@ -5,6 +5,7 @@
 @import "notifications";
 @import "chat";
 @import "game";
+@import "board";
 
 * {
   box-sizing: border-box;
@@ -26,18 +27,15 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-
   .loginBox,
   .gameContainer {
     display: none;
   }
-
   &.loggedOut {
     .loginBox {
       display: block;
     }
   }
-
   &.loggedIn {
     .gameContainer {
       display: flex;
